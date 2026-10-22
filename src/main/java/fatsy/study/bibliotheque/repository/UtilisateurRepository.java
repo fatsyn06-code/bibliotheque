@@ -1,0 +1,7 @@
+package fatsy.study.bibliotheque.repository;
+
+import fatsy.study.bibliotheque.model.Utilisateur;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UtilisateurRepository extends JpaRepository<Utilisateur, Long> {
+}
