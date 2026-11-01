@@ -79,5 +79,8 @@ Retourner le livre : `POST /api/emprunts/1/retour`. La date de retour est rensei
 ## Améliorations prévues
 
 - Authentification avec rôles (bibliothécaire, lecteur)
-- Tests automatisés
+
 - Réponse propre (409) quand un email existe déjà
+## Notes
+
+- Authentification : HTTP Basic, compte de test biblio / biblio123 (en mémoire, pour le développement) ».
